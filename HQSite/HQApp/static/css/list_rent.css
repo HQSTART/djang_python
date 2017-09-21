@@ -1,0 +1,116 @@
+body {
+  position: relative;
+}
+h2 {
+  font-family: 'Bangers', cursive;
+  font-size: 25px!important;
+}
+.ui.inverted.teal.top.fixed.borderless.menu {
+  padding-left: 20px;
+  height: 30px;
+}
+.ui.mini.circular.image {
+  width: 30px;
+  height: 30px;
+}
+.ui.inverted.header.login {
+  padding-right: 5px;
+}
+.ui.inverted.header.register {
+  padding-left: 5px;
+}
+.ui.inverted.segment.container.nav {
+  width:1000px;
+  background-color: rgb(235, 235, 235);
+  padding: 2px 2px 2px 2px;
+  margin-top: 50px;
+}
+.ui.segment.listheader.container {
+  padding: 2px 2px 2px 8px;
+  width: 1000px;
+}
+.ui.header.elems1 {
+  font-size: 13px;
+  padding-right: 15px;
+}
+.ui.orange.header.elems1 {
+  font-size: 13px;
+  padding-right: 15px;
+}
+.ui.grey.header.elems1 {
+  font-size: 13px;
+  padding-right: 15px;
+}
+.ui.header.elems2 {
+  font-size: 13px;
+  padding-right: 13px;
+}
+.ui.orange.header.elems2 {
+  font-size: 13px;
+  padding-right: 13px;
+}
+.ui.grey.header.elems2 {
+  font-size: 13px;
+  padding-right: 13px;
+}
+.ui.header.elems3 {
+  font-size: 13px;
+  padding-right: 15px;
+}
+.ui.orange.header.elems3 {
+  font-size: 13px;
+  padding-right: 15px;
+}
+.ui.grey.header.elems3 {
+  font-size: 13px;
+  padding-right: 15px;
+}
+.ui.container.basic.segment.contentHeader {
+  padding: 2px 2px 2px 750px;
+}
+.ui.header.rank {
+  font-size: 13px;
+  font-family: 'Raleway',sans-serif;
+}
+.ui.orange.header.default {
+  font-size: 13px;
+  font-family: 'Raleway',sans-serif;
+  padding-right: 12px;
+}
+.ui.header.rent {
+  font-size: 13px;
+  font-family: 'Raleway',sans-serif;
+}
+.ui.header.new {
+  font-size: 13px;
+  font-family: 'Raleway',sans-serif;
+}
+.ui.vertical.basic.segment.container.master {
+  width: 1000px;
+  /*border-bottom-style:dashed;
+  border-color: rgb(194, 194, 187);
+  border-bottom-width: thin;*/
+}
+.ui.vertical.segment.price {
+  margin: 50px 10px 10px 55px;
+}
+.ui.center.aligned.very.padded.vertical.basic.segment.container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+p {
+  font-size: 15px;
+  font-family: 'Raleway',sans-serif;
+}
+
+.ui.vertical.teal.segment.container.footers {
+  padding: 2px 2px 2px 2px;
+  width: 1000px;
+}
+
+.ui.header.logo{
+  font-size: 40px;
+  color: rgba(191, 205, 207, 0.75);
+  padding-left: 100px;
+  margin-top: 25px;
+}

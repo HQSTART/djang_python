@@ -1,0 +1,71 @@
+body {
+  position: relative;
+}
+h2 {
+  font-family: 'Bangers', cursive;
+  font-size: 25px!important;
+}
+.ui.inverted.teal.top.fixed.borderless.menu {
+  padding-left: 20px;
+  height: 30px;
+}
+.ui.mini.circular.image {
+  width: 30px;
+  height: 30px;
+}
+.ui.inverted.header.login {
+  padding-right: 5px;
+}
+.ui.inverted.header.register {
+  padding-left: 5px;
+}
+.ui.inverted.segment.container.nav {
+  width:1000px;
+  background-color:rgb(235, 235, 235);
+  padding: 2px 2px 2px 2px;
+  margin-top: 50px;
+}
+.ui.vertical.segment.basic.container.con {
+  width: 1000px;
+}
+.ui.vertical.segment.container.con > .ui.header.title {
+  padding-left: 15px;
+}
+.ui.segment.pic {
+  width: 650px;
+  height: 450px;
+  margin-left: 25px;
+  padding-left: 500px;
+  padding-top: 380px;
+}
+.ui.header.logo {
+  font-size: 40px;
+  color: rgba(191, 205, 207, 0.75);
+}
+.ui.segment.right {
+  padding-left: 20px;
+}
+.ui.header.saleName {
+  font-size:15px;
+  padding-left: 30px;
+}
+
+.ui.vertical.segment.elems {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.ui.vertical.basic.segment.container.cTwo {
+  width: 1000px;
+  padding-top: 10px;
+  /*padding-left: 15px;*/
+}
+
+.ui.three.column.grid.infos > .column {
+  padding: 20px 0 20px 10px;
+}
+
+.ui.vertical.teal.segment.container.footers {
+  padding: 2px 2px 2px 2px;
+  width: 1000px;
+}

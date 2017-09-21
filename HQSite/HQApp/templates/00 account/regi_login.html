@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>登录/注册</title>
+    <link rel="stylesheet" href="css/semantic.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Play">
+    <style type="text/css">
+      body {
+        background: url('images/home.jpg');
+        background-size: cover;
+      }
+
+      .ui.grid.divided.segment.container {
+        height: 400px;
+        width:650px!important;
+        border: rgb(252, 220, 221);
+        position: absolute;
+        left:50%;
+        top:40%;
+        transform: translate(-50%,-50%);
+      }
+
+      .five.wide.column {
+        /*background: url('images/test.png');*/
+        background-color: rgb(9, 172, 167);
+        background-size: cover;
+        background-position: 60% 0;
+      }
+
+      h1,h3,h4 {
+      font-family: 'Play', sans-serif !important;
+      }
+
+      .ui.vertical.teal.segment.footers {
+        position: absolute;
+        left:50%;
+        top:94%;
+        transform: translate(-50%,-50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ui grid divided segment container">
+      <div class="five wide column">
+        <h4 class="ui header">
+          <i class="angle left icon"></i>
+        </h4>
+        <h1 class="ui inverted center aligned header" style="font-size:40px;margin-top:55px;">
+          <p class="sub header">
+            与你分享数据的力量
+          </p>
+          HQ
+        </h1>
+      </div>
+
+      <div class="eleven wide column">
+        <h4 class="ui inverted right aligned header">
+          <a href="#" style="color:rgb(9, 172, 167);">登录</a>
+        </h4>
+
+        <form class="ui form">
+          <div class="field" style="width:400px;">
+            <input type="text" name="first-name" placeholder="姓名">
+          </div>
+
+          <div class="field" style="width:400px;">
+              <input type="text" name="last-name" placeholder="手机号">
+          </div>
+          <div class="field" style="width:400px;">
+              <input type="text" name="last-name" placeholder="密码（不少于8位）">
+          </div>
+
+          <div class="field" style="width:400px;">
+              <input type="text" name="last-name" placeholder="确认密码">
+          </div>
+          <p style="color:grey;font-size:10px;">点击「注册」按钮，即代表你同意《HQ协议》</p>
+          <button type="button" name="button" class="ui teal button" style="width:400px;">
+            注册</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- footer 页面尾部 -->
+    <div class="ui vertical teal segment footers">
+      <div class="ui vertical text menu" style="width:850px;">
+        <div class="item">
+          <h3 class="ui header">畅想未来公司</h3>
+        </div>
+        <div class="item">
+          <span style="padding-right:20px;">关于HQ，联系我们>></span>
+          <span style="padding-right:20px;">地址:上海，中国</span>
+          <span style="padding-right:20px;">|</span>
+          <span style="padding-right:20px;">电话:021-xxxxxxxx</span>
+          <span style="padding-right:20px;">|</span>
+          <span style="padding-right:20px;">传真:021-xxxxxxxx</span>
+          <span style="padding-right:20px;">@Copyright 2017-2020 v1</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
